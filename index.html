@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO APP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>To-do app</h2>
+        <form action="#">
+            <label for="task">Add New Task</label>
+            <input type="text" id="task">
+            <button type="submit">Add Task</button>
+        </form>
+        <div class="main-content">
+            <div class="incomplete-tasks">
+                <h3>INCOMPLETE TASKS</h3>
+                <ul id="incomplete-ul">
+                    <li>
+                        <input type="checkbox">
+                        <label>Task Name</label>
+                    </li>
+                    <li>
+                        <input type="checkbox">
+                        <label>Task Name</label>
+                    </li>
+                    <li>
+                        <input type="checkbox">
+                        <label>Task Name</label>
+                    </li>
+                </ul>
+            </div>
+            <div class="complete-tasks">
+                <h3>COMPLETED TASKS</h3>
+                <ul id="complete-ul">
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
